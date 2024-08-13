@@ -4,9 +4,9 @@ from firebase_admin import db
 import pandas as pd
 
 # Initialize the Firebase app with the service account key
-cred = credentials.Certificate('notificationapplication-9f0b8-firebase-adminsdk-t02hd-363c9b0a93.json')
+cred = credentials.Certificate('notificationdata-1df6d-firebase-adminsdk-5ien1-131daf8d66.json')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://notificationapplication-9f0b8-default-rtdb.firebaseio.com/'
+    'databaseURL': 'https://notificationdata-1df6d-default-rtdb.firebaseio.com/'
 })
 
 # Reference the database location
